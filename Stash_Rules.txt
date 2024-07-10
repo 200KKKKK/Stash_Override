@@ -1,4 +1,0 @@
-rules: 
-  - DOMAIN-SUFFIX,claude.ai,Claude
-  - DOMAIN-SUFFIX,perplexity.ai,AI相关应用
-  - DOMAIN-SUFFIX,heaven-burns-red.com,HBR
