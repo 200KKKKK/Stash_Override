@@ -15,7 +15,7 @@ http:
 
 script-providers:
   AddCustomRules:
-    url: https://raw.githubusercontent.com/200KKKKK/Stash_Override/main/addCustomRules.js?token=GHSAT0AAAAAACUVFRJJ45ZL4GB7GQ5C4M42ZUN7YFQ
+    url: https://raw.githubusercontent.com/200KKKKK/Stash_Override/main/addCustomRules.js
     interval: 86400
 
 rules:
