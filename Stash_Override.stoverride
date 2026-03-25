@@ -2,6 +2,7 @@ name: Stash Override
 desc: 将Clash Verge的预处理配置转换为Stash的覆写文件
 
 rules:
+  - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
   - DOMAIN-KEYWORD,claude,✨ Claude
   - DOMAIN-KEYWORD,anthropic,✨ Claude
   - DOMAIN-SUFFIX,claude.ai,✨ Claude
