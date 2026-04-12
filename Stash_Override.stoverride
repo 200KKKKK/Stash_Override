@@ -11,8 +11,6 @@ rules:
   - DOMAIN-KEYWORD,openai,✨ AI
   - DOMAIN-SUFFIX,chatgpt.com,✨ AI
   - DOMAIN-SUFFIX,openai.com,✨ AI
-  - DOMAIN-KEYWORD,heaven-burns-red,🎮 Heaven Burns Red
-  - DOMAIN-SUFFIX,heaven-burns-red.com,🎮 Heaven Burns Red
 
 proxy-groups:
   - name: ✨ Claude
@@ -23,19 +21,4 @@ proxy-groups:
   - name: ✨ AI
     type: select
     proxies:
-      - TW
-      - JP
-      - SG
       - US
-
-  - name: 🎮 Heaven Burns Red
-    type: select
-    proxies:
-      - 🇭🇰 日用 专线 香港 [0.2]
-      - 🇸🇬 日用 专线 狮城 [0.2]
-      - 🇭🇰 高级 专线 香港 04
-      - 🇯🇵 高级 专线 日本 02
-      - 🇯🇵 高级 专线 日本 04
-      - 🇯🇵 高级 专线 日本 07
-
-
